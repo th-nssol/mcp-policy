@@ -1,12 +1,46 @@
 {
-  "mcpServers": {
-    "microsoft-learn": {
-      "type": "http",
-      "url": "https://learn.microsoft.com/api/mcp"
+  "servers": [
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+        "name": "io.github.microsoft/microsoft-learn-mcp",
+        "title": "Microsoft Learn MCP",
+        "description": "MCP server for Microsoft Learn content and APIs",
+        "version": "1.0.0",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://learn.microsoft.com/api/mcp"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "isLatest": true
+        }
+      }
     },
-    "thnssol-business-central": {
-      "type": "http",
-      "url": "https://mcp.businesscentral.dynamics.com/",
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+        "name": "io.github.thnssol/business-central-mcp",
+        "title": "Business Central MCP",
+        "description": "MCP server for Dynamics 365 Business Central",
+        "version": "1.0.0",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.businesscentral.dynamics.com/"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "isLatest": true
+        }
+      }
     }
-  }
+  ]
 }
