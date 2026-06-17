@@ -3,7 +3,7 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-        "name": "io.github.microsoft/microsoft-learn-mcp",
+        "name": "th.co.nssol/microsoft-learn-mcp",
         "title": "Microsoft Learn MCP",
         "description": "MCP server for Microsoft Learn content and APIs",
         "version": "1.0.0",
@@ -24,7 +24,7 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-        "name": "io.github.thnssol/business-central-mcp",
+        "name": "th.co.nssol/business-central-mcp",
         "title": "Business Central MCP",
         "description": "MCP server for Dynamics 365 Business Central",
         "version": "1.0.0",
