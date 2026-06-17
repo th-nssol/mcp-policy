@@ -17,6 +17,8 @@
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
           "status": "active",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "updatedAt": "2026-06-17T00:00:00Z",
           "isLatest": true
         }
       }
@@ -38,6 +40,8 @@
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
           "status": "active",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "updatedAt": "2026-06-17T00:00:00Z",
           "isLatest": true
         }
       }
