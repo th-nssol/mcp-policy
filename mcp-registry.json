@@ -7,9 +7,6 @@
     "thnssol-business-central": {
       "type": "http",
       "url": "https://mcp.businesscentral.dynamics.com/",
-      "env": {
-        "MICROSOFT_ENTRA_TENANT_ID": "6f557dcb-6084-49c6-9225-c8dad537bdf5"
-      }
     }
   }
 }
